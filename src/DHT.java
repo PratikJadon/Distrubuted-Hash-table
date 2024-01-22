@@ -4,7 +4,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Map;
 
 public class DHT{
-    //    Head stores as one node that cannot be deleted
+    //    Head stored as one node that cannot be deleted
     private DHTNode head;
     private static DHT instance;
     //    Stores baseNode number and also used for creating other node numbers as (pervNodeNumber + 1) * baseNode
